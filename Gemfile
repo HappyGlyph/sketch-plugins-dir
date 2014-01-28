@@ -1,10 +1,14 @@
 source 'https://rubygems.org'
+ruby "2.0.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# gem 'sqlite3'
+
+# Use PostGres as the database for Active Record
+gem "pg", "~> 0.17.1"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -35,8 +39,8 @@ end
 # User authentication and authorization
 gem "devise", "3.2.2"
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.1.2'
+
+
 
 # Use unicorn as the app server
 # gem 'unicorn'
