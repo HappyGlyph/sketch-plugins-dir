@@ -32,6 +32,9 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# User authentication and authorization
+gem "devise", "3.2.2"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
